@@ -1,10 +1,37 @@
-html, body{
-    height: 100%;
-}
-
-body{
+.main_body{
     margin: 0;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.title{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    align-content: center;
+    margin: 0;
+}
+.styled {
+    border : 0;
+    line-height: 2.5;
+    padding: 0 20px;
+    font-size: 1rem;
+    text-align: center;
+    color: #fff;
+    text-shadow: 1px 1px 1px #000;
+    border-radius: 10px;
+    background-color: rgb(9, 155, 16);
+}
+
+.styled:hover{
+    background-color: rgb(0, 47, 255);
+}
+
+.styled:active{
+    background-color: rgb(170, 35, 26)
 }
